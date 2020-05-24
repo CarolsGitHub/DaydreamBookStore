@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 2100" width="1500" height="2100">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #99c295 } 
+		.shp1 { fill: #2e4c2c } 
+		.txt2 { font-size: 36px;fill: #ffffff;font-family: "HYXiaoMaiTiJ";font-weight: 400;text-anchor: middle } 
+		.txt3 { font-size: 91px;fill: #ffffff;font-family: "HYXiaoMaiTiJ";font-weight: 400;text-anchor: middle } 
+	</style>
+	<path id="Background" class="shp0" d="M0,2100h1500v-2100h-1500z" />
+	<path id="Border" class="shp1" d="M0,0h1500v2100h-1500zM88,88v1924h1324v-1924z" />
+	<text id="Before you go go." style="transform: matrix(1,0,0,1,750,1108.24)" >
+		<tspan x="0" y="0" class="txt2">Before you go go.</tspan>
+	</text>
+	<text id="Wake Me Up!" style="transform: matrix(1,0,0,1,750,1053.64)" >
+		<tspan x="0" y="0" class="txt3">Wake Me Up!</tspan>
+	</text>
+</svg>

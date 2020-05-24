@@ -1,0 +1,38 @@
+body{
+    background: #F8F8FF;
+}
+.form {
+    width: 249px;
+    margin: 50px auto;
+}
+.title-wrapper {
+    width: 200px;
+    margin: 50px auto;
+}
+.all-wrapper{
+    margin: 20px auto;
+}
+.remindofnickname{
+    color: red;
+    display: none;
+}
+.remindofonther{
+    color: red;
+    display: none;
+}
+.remindofconfirm{
+    color: red;
+    display: none;
+}
+.remindofnicknameisexist{
+    color: red;
+    display: none;
+}
+.remindofoemil{
+    color: red;
+    display: none;
+}
+.remindofpasswd{
+    color: red;
+    display: none;
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 135" width="240" height="135">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #02311f } 
+		.shp1 { fill: #ffffff } 
+		.txt2 { font-size: 12px;fill: #ffffff;font-family: "HYXiaoMaiTiJ";font-weight: 400;text-anchor: end } 
+		.txt3 { font-size: 18px;fill: #ffffff;font-family: "HYXiaoMaiTiJ";font-weight: 400;text-anchor: end } 
+	</style>
+	<path id="Background" class="shp0" d="M0,135h240v-135h-240z" />
+	<path id="Bar" class="shp1" d="M232.36,51h-2.36v33.1l2.36,0z" />
+	<text id="Reading the life " style="transform: matrix(1,0,0,1,224,81.18)" >
+		<tspan x="0" y="0" class="txt2">Reading the life</tspan>
+	</text>
+	<text id="Is This a Real Life! " style="transform: matrix(1,0,0,1,228,62)" >
+		<tspan x="0" y="0" class="txt3">Is This a Real Life!</tspan>
+	</text>
+</svg>

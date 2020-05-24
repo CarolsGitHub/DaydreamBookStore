@@ -1,0 +1,79 @@
+
+
+.login_info_con,.login_info_con li,.CartAndOrder_info_con,.CartAndOrder_info_con li{
+    float: left;
+
+}
+.login_info_con span,.CartAndOrder_info_con span{
+    line-height: 29px;
+    margin: 0 10px;
+}
+.login_info_con a ,.CartAndOrder_info_con a{
+    display: block;
+    line-height: 29px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.login_info_con a:hover,.CartAndOrder_info_con a:hover{
+    color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.foots{
+    border-top: solid 2px lawngreen;
+    width: 100%;
+    /*background: indigo;*/
+    padding-top: 10px ;
+    margin-top: 180px ;
+}
+.foots p,.foots a{
+    color: black;
+    text-align: center;
+    padding-bottom: 20px ;
+}
+.foots span{
+    margin: 0 10px 0 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
