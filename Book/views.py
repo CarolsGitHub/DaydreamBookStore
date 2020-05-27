@@ -19,7 +19,7 @@ def index(request):
         'allbooks': allbooks,
     }
 
-    return render(request, 'index.html', context)
+    return render(request, 'index base.html', context)
 
 
 def categories(request):

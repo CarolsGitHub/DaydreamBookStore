@@ -13,6 +13,7 @@ class User(AbstractUser, BaseModel):
         verbose_name = '用户'
         verbose_name_plural = verbose_name
 
+
 class AddressManage(models.Manager):
     """地址模型管理器类"""
 

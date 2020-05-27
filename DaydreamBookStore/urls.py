@@ -29,7 +29,8 @@ urlpatterns = [
     url(r'^user/', include(('apps.user.urls', 'user'), namespace='user')),     # 用户模块
     url(r'^cart/', include(('apps.cart.urls', 'cart'), namespace='cart')),   # 购物车模块
     url(r'^order/', include(('apps.order.urls', 'order'), namespace='order')),     # 订单模块
-    path('', views.index, name='index'),
-    path('categories/', views.categories),
+    # path('', views.index, name='index'),
+    # path('categories/', views.categories),
+    url('', include(('apps.goods.urls', 'goods'), namespace='goods')),
 
 ]

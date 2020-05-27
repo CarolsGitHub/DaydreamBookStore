@@ -1,6 +1,6 @@
 {# 首页 注册 登录 #}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     {# 网页标题内容块 #}
@@ -46,16 +46,14 @@
 {# 网页顶部搜索框块 #}
 {% block search_bar %}
 	<div class="search_bar clearfix">
-		<a href="index.html" class="logo fl"><img src="/static/images/logo.png" alt=""></a>
+		<a href="index.html" class="logo fl"><img src="/static/images/logo.png"></a>
 		<div class="search_con fl">
-            <label>
-                <input type="text" class="input_text fl" name="" placeholder="搜索商品">
-            </label>
-            <input type="button" class="input_btn fr" name="" value="搜索">
+			<input type="text" class="input_text fl" name="" placeholder="搜索商品">
+			<input type="button" class="input_btn fr" name="" value="搜索">
 		</div>
 		<div class="guest_cart fr">
 			<a href="#" class="cart_name fl">我的购物车</a>
-			<div class="goods_count fl" id="show_count">{{ cart_count }}</div>
+			<div class="goods_count fl" id="show_count">1</div>
 		</div>
 	</div>
 {% endblock search_bar %}

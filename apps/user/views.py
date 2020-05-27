@@ -133,20 +133,20 @@ class UserInfoView(LoginRequiredMixin, View):
         address = Address.objects.get_default_address(user)
 
         # 获取用户浏览历史
-        # con = get_redis_connection('default')  # StrictRedis对象
+        con = get_redis_connection('default')  # StrictRedis对象
         history_key = 'history_%d' % user.id
         # 获取最新五条浏览记录
-        # sku_ids = con.lrange(history_key, 0, 4)
+        sku_ids = con.lrange(history_key, 0, 4)
         goods_li = []
-       #  for id in sku_ids:
-       #     goods = GoodsSKU.objects.get(id=id)
-        #    goods_li.append(goods)
+        for id in sku_ids:
+            goods = GoodsSKU.objects.get(id=id)
+            goods_li.append(goods)
 
         # 组织上下文
         context = {
             'page': 'user',
             'address': address,
-            'goods_li': goods_li
+            'goods_li': goods_li,
         }
         return render(request, 'user_center_info.html', context)
 
@@ -253,7 +253,7 @@ class AddressView(LoginRequiredMixin, View):
             return render(request, 'user_center_site.html', {'errmsg': '数据不完整'})
 
         # 手机号校验
-        if not re.match(r'1[3,4,5,7,8]\d{9}$', phone):
+        if not re.match(r'1\d{9}$', phone):
             return render(request, 'user_center_site.html', {'errmsg': '手机格式不正确'})
 
         if len(zip_code) != 6:
